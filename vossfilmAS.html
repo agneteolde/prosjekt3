@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <title>Voss Film</title>
+     
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    
+     <style>
+         
+         h1{
+             font-family: 'Lobster', cursive;
+         }
+            body{
+                background-color: bisque;
+            }
+    
+            #dyr{
+                margin: 40px auto;
+                display: flex;
+                width: 800px;
+                height: 320px;
+            }
+            
+            #dyr > div{
+                flex: 1;
+               
+                border: 4px solid white;
+                opacity: 0.4;
+                background-position: center center;
+                background-size: cover;
+                transition: 0.5s;
+            }
+            
+            #dyr > div:hover{
+                flex: 4;
+                transform: scale(1.2);
+                opacity: 1;
+                z-index: 1;
+            }
+            
+            #bilde1 {background-image: url(vossfilmbilder/vossgymnasbilder/IMG_0729.jpg)}
+            
+            #bilde2{background-image: url(vossfilmbilder/vossgymnasbilder/IMG_0731.jpg)}
+            
+            #bilde3{background-image: url(vossfilmbilder/vossgymnasbilder/IMG_0737.jpg)}
+            
+            #bilde4{background-image: url(vossfilmbilder/vossgymnasbilder/tak.jpg)}
+            
+            #bilde5{background-image: url(vossfilmbilder/vossgymnasbilder/IMG_0733.jpg)}
+            
+            #bilde6{background-image: url(DCIM-kopi/100MEDIA/gamlebygg.JPG)}
+            
+            
+         
+            header{
+            
+             font-family: 'Roboto', sans-serif;
+                background-color: #282828
+            
+             
+         }
+         
+         nav{
+             background-color: ;
+             display: grid;
+             grid-template-columns: auto repeat(8,1fr);
+             align-items: center;
+             margin-bottom: 15px;
+             
+            
+         }
+        
+         nav a{
+             padding-left: 30px;
+             padding-right: 30px;
+             color: #ffffff;
+             padding: 20px;
+           background-color: #282828;
+             font-size: 20px;
+             font-family: 'Roboto', sans-serif;
+         }
+
+        nav a:hover{
+            color: #F0c330;
+            transition: 0.5s;
+        }
+         
+         nav.heim{
+            
+             color: coral;
+             font-size: 50px;
+             padding: 10px;
+         }
+
+body{
+            text-align: left;
+             font-family: 'Roboto', sans-serif;
+            padding: 10px;
+            
+        }
+    
+        main{
+            max-width: 1800px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-gap: 10px;
+        }
+    
+        img{
+            max-width: 500px;
+            
+        }
+        
+         .kol-1{grid-column: span 1;}
+        .kol-2{grid-column: span 2;}
+        .kol-3{grid-column: span 3;}
+        .kol-4{grid-column: span 4;}
+        .kol-5{grid-column: span 5;}
+        .kol-6{grid-column: span 6;}
+        .kol-7{grid-column: span 7;}
+        .kol-8{grid-column: span 8;}
+        .kol-9{grid-column: span 9;}
+        .kol-10{grid-column: span 10;}
+        .kol-11{grid-column: span 11;}
+        .kol-12{grid-column: span 12;}
+
+html{
+    margin: 0;
+}
+
+       
+        
+
+    </style>
+    
+    
+    </head>
+    
+    <body>
+      <header>
+            <nav>
+            
+                <a href="index.html">HEIM</a>
+                <a href="innleiingsosialemed.html">Innleiing</a>
+            
+                <a href="vossfilmAS.html">Voss Film </a>
+                
+                 <a href="plandok.docx">Planleggingsdokument</a>
+                
+                
+            </nav>
+        
+        
+        </header>
+        <main>
+            
+            
+            
+        <article class="kol-12">
+         <div id="dyr">
+            <div id="bilde1"></div>
+            <div id="bilde2"></div>
+            <div id="bilde3"></div>
+            <div id="bilde4"></div>
+            <div id="bilde5"></div>
+            <div id="bilde6"></div>
+        </div>
+        
+            </article>
+            
+              <article class="kol-4"></article>
+            <article class="kol-4">
+      
+            <video src="https://firebasestorage.googleapis.com/v0/b/prosjekt3-a2a01.appspot.com/o/123.mp4?alt=media&token=60f00d1d-29ba-479d-96c0-17317d5a21b5" controls preload="auto" width="600"></video>
+        
+            </article>
+              <article class="kol-4"></article>
+    </main>
+    </body>
+
+
+
+
+
+
+</html>
